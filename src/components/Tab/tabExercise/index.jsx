@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TabQuestion from "../tabQuestion/index";
 import TabQuestionTap from "../tabQuestionTap/index";
+import TextFoldingUnfolding from '../../../Textfoldingunfolding/index'
 import "./style.less";
 //通过有顺序的题目编号寻找对应的提
 class Tab extends Component {
@@ -180,6 +181,8 @@ class Tab extends Component {
 					<span>{currentNumber}</span>
 					<span>/{todoList.length}</span>
 				</div>
+
+        <TextFoldingUnfolding/>
 		  </div>
     );
   }
