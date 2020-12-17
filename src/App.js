@@ -1,10 +1,14 @@
 import React,{Component} from 'react'
 import Tab from './components/Tab/tabExercise/index'
+import Qianzhi from './components/qiangZhi/index'
+import Ercode from './components/erCode/index'
 class App extends Component{
     render(){
         return (
             <div>
-                <Tab/>
+                {/* <Tab/> */}
+                {/* <Qianzhi/> */}
+                <Ercode/>
             </div>
         )
     }
